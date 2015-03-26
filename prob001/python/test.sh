@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 
 #input string echo passed into the test program.
 echo 'stressed'|python prob001.py > prob0001.out
