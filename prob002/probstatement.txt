@@ -1,0 +1,9 @@
+prob 02:
+
+take one character from the top in turns from「パトカー」and 「タクシー」to obtain string 「パタトクカシーー」
+->Japanese text encoding had issues, so substituting with "yolo" and "trol"
+
+02. 「パトカー」＋「タクシー」＝「パタトクカシーー」
+
+「パトカー」＋「タクシー」の文字を先頭から交互に連結して文字列「パタトクカシーー」を得よ．
+
