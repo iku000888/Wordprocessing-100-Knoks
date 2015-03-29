@@ -1,0 +1,2 @@
+problem statement for prob003
+Split the following sentence and list the number of chars in each word: 'Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.'
