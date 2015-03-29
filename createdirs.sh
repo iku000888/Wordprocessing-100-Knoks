@@ -1,3 +1,5 @@
+#script intended to automate the directory creation process.
+
 echo 'creating python and ruby sub directories for:'$1
 mkdir -p $1
 mkdir -p $1/python
