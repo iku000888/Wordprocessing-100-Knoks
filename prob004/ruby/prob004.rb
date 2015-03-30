@@ -27,4 +27,4 @@ end
 pdcTbl.each_key do |key|
    puts key +" "+ pdcTbl[key].to_s
 end
-
+f.close()
