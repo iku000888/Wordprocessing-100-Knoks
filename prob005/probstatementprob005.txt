@@ -1,0 +1,7 @@
+problem statement for prob005
+与えられたシーケンス（文字列やリストなど）からn-gramを作る関数を作成せよ．
+この関数を用い，"I am an NLPer"という文から単語bi-gram，文字bi-gramを得よ．
+
+Create a function that returns an n-gram from a given sequence.
+Using this function, obtain a word bi-gram and a character bi-gram
+from the sentence:"I am an NLPer"
