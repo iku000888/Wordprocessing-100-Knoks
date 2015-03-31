@@ -5,3 +5,6 @@ problem statement for prob005
 Create a function that returns an n-gram from a given sequence.
 Using this function, obtain a word bi-gram and a character bi-gram
 from the sentence:"I am an NLPer"
+
+Assuming that a word bi-gram means that the two chars need to be contained in one word,
+while character bi-gram can allows bi-grams across characters.
