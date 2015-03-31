@@ -1,7 +1,9 @@
+#assumes that input string contains no special characters.
+#sequence must be contained in words.
 def compute_word_n_gram( str,n ):
    "This returns the n-gram of the input string as a dictionary of n-gram"
 
-   #initialize empty dictionary
+   #initialize empty set. This time ignoring frequency
    #https://docs.python.org/2/tutorial/datastructures.html
    ngram = set()
 
@@ -10,14 +12,12 @@ def compute_word_n_gram( str,n ):
 
    for word in words:
       if len(word)>=n:#ignore words shorter than n
-         #print word
-         #print compute_char_n_gram(word,n)
-         #print len(word)
+         #iteratively add the n grams of each word.
+         #reusing is justice!
          ngram |= compute_char_n_gram(word,n) 
-   #print ngram
-   #print n
    return ngram;
 
+#n gram that allows sequence to be formed across words.
 def compute_char_n_gram( str,n ):
    "This returns the n-gram of the input string as a dictionary of n-gram"
    ngram = set()
@@ -28,10 +28,6 @@ def compute_char_n_gram( str,n ):
       if idx+n > len(str):
          break 
       ngram.add(str[idx:idx+n])
-      #print idx, val
-      #print str[idx:idx+n]
-   #print str
-   #print ngram
    return ngram;
 
 
@@ -46,5 +42,5 @@ def unittest():
    print compute_char_n_gram("yolo I am a sitting duck",4)
    print compute_char_n_gram("yolo I am a sitting duck",7)
    return;
-#unit test code below.
+#unit test code below can be uncommented to see some test code.
 #unittest()
