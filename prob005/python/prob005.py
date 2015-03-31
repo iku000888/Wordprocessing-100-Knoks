@@ -6,7 +6,6 @@ import ngram
 
 f = open(sys.argv[1],'r')
 line = f.readline().rstrip('\n.')
-#print line
 
 print "word n gram:"
 print ngram.compute_word_n_gram(line,2)
