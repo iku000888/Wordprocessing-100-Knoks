@@ -1,0 +1,11 @@
+problem statement for prob006
+"paraparaparadise"と"paragraph"に含まれる文字bi-gramの集合を,
+それぞれ, XとYとして求め，XとYの和集合，積集合，差集合を求めよ．
+さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．
+
+for the phrases "paraparaparadise"and"paragraph", 
+set them as x and y, and obtain the union, intersection,
+and difference of the set of character bi-grams.
+
+On top of that, check whether the bi-gram "se" is contained in 
+x and y.
