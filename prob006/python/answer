@@ -1,0 +1,7 @@
+bigrams of "paraparaparadise":  set(['ad', 'di', 'is', 'ap', 'pa', 'ra', 'ar', 'se'])
+bigrams of "paragraph":  set(['gr', 'ag', 'ap', 'pa', 'ra', 'ph', 'ar'])
+union of the bigrams: set(['ad', 'ag', 'di', 'is', 'ap', 'pa', 'ra', 'ph', 'ar', 'se', 'gr'])
+intersection of the bigrams: set(['ap', 'pa', 'ar', 'ra'])
+difference of bigrams: set(['is', 'ad', 'se', 'di'])
+bigram "se" contained in first?=> True
+bigram "se" contained in second?=> False
