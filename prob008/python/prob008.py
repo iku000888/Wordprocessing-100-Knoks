@@ -6,20 +6,11 @@ def cipher(sometext):
    for c in sometext:
       if c.islower():
          newstr+= chr(219 - ord(c))
+         #print ord(c)
       else:
          newstr+= c
    #print newstr      
    return newstr
 
-def decipher(sometext):
-   newstr=""
-   for c in sometext:
-      if c.islower():
-         newstr+= chr(219 - ord(c))
-      else:
-         newstr+= c
-   #print newstr      
-   return newstr
-
-
-cipher(sys.argv[1])
+print cipher(sys.argv[1])
+print cipher(cipher(sys.argv[1]))
