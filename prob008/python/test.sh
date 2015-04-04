@@ -23,5 +23,5 @@ done <prob008.out
 #echo 'output of program:'
 #cat prob008.out
 echo 'here is the diff with the solution (blank means correct): '
-diff prob007.out answer>prob007.diff
-cat prob007.diff
+diff prob008.out answer>prob008.diff
+cat prob008.diff
