@@ -3,3 +3,8 @@ problem statement for prob007
 
 引数x, y, zを受け取り「x時のyはz」という文字列を返す関数を実装せよ．さらに，x=12, y="気温", z=22.4として，実行結果を確認せよ．
 
+Write a function that accepts parameters (x,y,z)
+and returns a string "x時のyはz".
+
+On top of that, verify the result of:
+x=12, y="気温", z=22.4
