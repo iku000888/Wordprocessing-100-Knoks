@@ -13,4 +13,4 @@ def cipher(sometext):
    return newstr
 
 print cipher(sys.argv[1])
-print cipher(cipher(sys.argv[1]))
+#print cipher(cipher(sys.argv[1]))
