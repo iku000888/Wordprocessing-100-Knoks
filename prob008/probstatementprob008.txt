@@ -1,0 +1,12 @@
+problem statement for prob008
+08. 暗号文
+
+与えられた文字列の各文字を，以下の仕様で変換する関数cipherを実装せよ．
+Implement a method cipher that does the following to each chars in a given string:
+    英小文字ならば(219 - 文字コード)の文字に置換
+    If lower case alphabet, replace char with 219-char code
+    その他の文字はそのまま出力 do nothing with other chars.
+
+この関数を用い，英語のメッセージを暗号化・復号化せよ．
+Use this method to cipher and decipher english messages.
+
